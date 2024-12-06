@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\S\\source\\repos\\AssessmentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E53FB917-50E1-4214-885C-9E2E1871E9AE}|assessmentapp.client\\assessmentapp.client.esproj|c:\\users\\s\\source\\repos\\assessmentapp\\assessmentapp.client\\src\\app\\shared\\components\\progress-bar\\progress-bar.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E53FB917-50E1-4214-885C-9E2E1871E9AE}|assessmentapp.client\\assessmentapp.client.esproj|solutionrelative:assessmentapp.client\\src\\app\\shared\\components\\progress-bar\\progress-bar.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53FB917-50E1-4214-885C-9E2E1871E9AE}|assessmentapp.client\\assessmentapp.client.esproj|c:\\users\\s\\source\\repos\\assessmentapp\\assessmentapp.client\\src\\app\\features\\budget\\components\\budget-create\\budget-create.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E53FB917-50E1-4214-885C-9E2E1871E9AE}|assessmentapp.client\\assessmentapp.client.esproj|solutionrelative:assessmentapp.client\\src\\app\\features\\budget\\components\\budget-create\\budget-create.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "progress-bar.component.ts",
+              "DocumentMoniker": "C:\\Users\\S\\source\\repos\\AssessmentApp\\assessmentapp.client\\src\\app\\shared\\components\\progress-bar\\progress-bar.component.ts",
+              "RelativeDocumentMoniker": "assessmentapp.client\\src\\app\\shared\\components\\progress-bar\\progress-bar.component.ts",
+              "ToolTip": "C:\\Users\\S\\source\\repos\\AssessmentApp\\assessmentapp.client\\src\\app\\shared\\components\\progress-bar\\progress-bar.component.ts",
+              "RelativeToolTip": "assessmentapp.client\\src\\app\\shared\\components\\progress-bar\\progress-bar.component.ts",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-06T22:51:42.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "budget-create.component.ts",
+              "DocumentMoniker": "C:\\Users\\S\\source\\repos\\AssessmentApp\\assessmentapp.client\\src\\app\\features\\budget\\components\\budget-create\\budget-create.component.ts",
+              "RelativeDocumentMoniker": "assessmentapp.client\\src\\app\\features\\budget\\components\\budget-create\\budget-create.component.ts",
+              "ToolTip": "C:\\Users\\S\\source\\repos\\AssessmentApp\\assessmentapp.client\\src\\app\\features\\budget\\components\\budget-create\\budget-create.component.ts",
+              "RelativeToolTip": "assessmentapp.client\\src\\app\\features\\budget\\components\\budget-create\\budget-create.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-06T22:45:22.129Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<div class="flex-1 flex justify-center items-center p-6 m-8">
+  <div class="bg-white rounded-lg shadow-md p-6 w-full max-w-md">
+    <form [formGroup]="createForm" (ngSubmit)="onSubmit(createForm)">
+
+      <div class="form-group mb-6">
+        <label for="amount" class="block text-gray-700 font-medium mb-2 flex justify-center">Start by entering your budget for this month</label>
+        <input formControlName="amount"
+               id="amount"
+               type="number"
+               class="w-full border-b-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 p-2 bg-transparent appearance-none"
+               placeholder="Enter budget amount in Dirhams" />
+      </div>
+
+      <button type="submit"
+              [disabled]="!createForm.valid"
+              class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed">
+        Submit
+      </button>
+    </form>
+  </div>
+</div>

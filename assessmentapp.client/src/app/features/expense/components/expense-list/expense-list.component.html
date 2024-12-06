@@ -1,0 +1,51 @@
+<div class="flex justify-end w-full p-4">
+  <button (click)="clearAll()"
+          class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-lg">
+    Clear All
+  </button>
+
+</div>
+<app-progress-bar></app-progress-bar>
+
+
+
+<div class="flex flex-col items-center p-6 m-8">
+  <!-- Section for Add Button -->
+  <div class="flex justify-center w-full max-w-lg mb-4">
+    <button (click)="router.navigate(['/expenses/create'])"
+            class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">
+      Add an Expense
+    </button>
+  </div>
+
+  <!-- Section for Expense Table -->
+  <div class="bg-white rounded-lg shadow-md p-6 w-full max-w-lg">
+    <table class="w-full text-left border-collapse">
+      <thead>
+        <tr class="bg-gray-100">
+          <th class="px-4 py-2 border-b">Amount (MAD)</th>
+          <th class="px-4 py-2 border-b">Category</th>
+          <th class="px-4 py-2 border-b">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let expense of expenses" class="hover:bg-gray-50">
+          <td class="px-4 py-2 border-b">{{ expense.amount }}</td>
+          <td class="px-4 py-2 border-b">{{ expense.category?.name }}</td>
+          <td class="px-4 py-2 border-b flex space-x-2">
+            <button type="button"
+                    [routerLink]="['/expenses/', expense.id, 'detail']"
+                    class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-1 px-3 rounded-lg">
+              View
+            </button>
+            <button type="button"
+                    (click)="deleteExpense(expense.id)"
+                    class="bg-red-500 hover:bg-red-600 text-white font-semibold py-1 px-3 rounded-lg">
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

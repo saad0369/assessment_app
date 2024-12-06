@@ -1,0 +1,26 @@
+<div class="flex-1 flex justify-center items-center p-6 m-8">
+  <div class="bg-white rounded-lg shadow-md p-6 w-full max-w-md">
+
+
+    <div class="flex mb-4">
+
+      <div class="w-full bg-gray-200 rounded-full h-4 mr-4 inline-flex">
+        <div class="h-4 rounded-full transition-all duration-300"
+             [ngClass]="{
+             'bg-green-500' : expensePercentage < 50,
+            'bg-yellow-500': expensePercentage >= 50 && expensePercentage < 80,
+            'bg-red-500': expensePercentage >= 80
+          }"
+          [style.width]="expensePercentage + '%'">
+        </div>
+      </div>
+
+      <div *ngIf="expensePercentage > 100" class="text-white bg-red-500 rounded-lg px-4 py-2 text-xs font-medium inline-flex">
+        Budget Exceeded!
+      </div>
+
+    </div>
+
+    <p class="text-gray-700 text-center text-sm font-medium mt-4">{{ expensePercentage | number:'1.0-0' }}% of your budget is spent.</p>
+  </div>
+</div>
